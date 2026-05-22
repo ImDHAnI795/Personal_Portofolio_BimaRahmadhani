@@ -1,326 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8" />
 
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta
-        name="description"
-        content="Professional Frontend Developer Portfolio">
+      name="description"
+      content="Professional Frontend Developer Portfolio"
+    />
 
-    <meta
-        name="keywords"
-        content="Frontend Developer, Portfolio, HTML, CSS">
+    <meta name="keywords" content="Frontend Developer, Portfolio, HTML, CSS" />
 
-    <meta
-        name="author"
-        content="Bima Rahmadhani">
+    <meta name="author" content="Bima Rahmadhani" />
 
     <title>Professional Portfolio</title>
 
     <!-- Google Fonts -->
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Patrick+Hand&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- Header -->
 
     <header>
+      <div class="container navbar">
+        <div class="logo">
+          <div class="logo-box"></div>
 
-        <div class="container navbar">
-
-            <div class="logo">
-
-                <div class="logo-box"></div>
-
-                <h2>Bima Rahmadhani</h2>
-
-            </div>
-
-            <nav>
-
-                <ul class="nav-links">
-
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="#articles">Articles</a>
-                    </li>
-
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-
-                </ul>
-
-            </nav>
-
+          <h2>Bima Rahmadhani</h2>
         </div>
 
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+              <a href="#articles">Articles</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero -->
 
     <section class="hero" id="home">
+      <div class="container hero-content">
+        <h1>Frontend Developer</h1>
 
-        <div class="container hero-content">
-
-            <h1>
-                Frontend Developer
-            </h1>
-
-            <p>
-                Creating responsive and modern web experiences
-                with clean structure and professional design.
-            </p>
-
-        </div>
-
+        <p>
+          Creating responsive and modern web experiences with clean structure
+          and professional design.
+        </p>
+      </div>
     </section>
 
     <!-- Main Grid -->
 
     <section class="main-grid">
+      <div class="container grid-layout">
+        <!-- Projects -->
 
-        <div class="container grid-layout">
+        <div class="box" id="projects">
+          <h2 class="box-title">Projects</h2>
 
-            <!-- Projects -->
-
-            <div class="box" id="projects">
-
-                <h2 class="box-title">
-                    Projects
-                </h2>
-
-                <ul class="project-list">
-
-                    <li>HTML Only Portfolio</li>
-                    <li>Calculator App</li>
-                    <li>Quiz Application</li>
-                    <li>Countdown Timer</li>
-                    <li>Product Landing Page</li>
-
-                </ul>
-
-            </div>
-
-            <!-- Experience -->
-
-            <div class="box">
-
-                <h2 class="box-title">
-                    Work Experience
-                </h2>
-
-                <div class="experience-item">
-
-                    <h3>roadmap.sh</h3>
-
-                    <p>
-                        Solved frontend roadmap projects
-                        and built responsive web interfaces.
-                    </p>
-
-                    <a href="#">
-                        Visit My Profile
-                    </a>
-
-                </div>
-
-                <div class="experience-item">
-
-                    <h3>OpenSource Work</h3>
-
-                    <p>
-                        Contributed to open-source projects
-                        and created personal frontend projects.
-                    </p>
-
-                    <a href="#">
-                        Visit My GitHub
-                    </a>
-
-                </div>
-
-            </div>
-
-            <!-- Education -->
-
-            <div class="box">
-
-                <h2 class="box-title">
-                    Education
-                </h2>
-
-                <p class="education-text">
-
-                    Graduated with 3.76 GPA and participated
-                    in several programming and hackathon events.
-
-                </p>
-
-                <h4>
-                    Courses I Took:
-                </h4>
-
-                <ul class="education-list">
-
-                    <li>Object Oriented Programming</li>
-                    <li>Web Development</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Database Management</li>
-                    <li>Human Computer Interaction</li>
-                    <li>Discrete Mathematics</li>
-
-                </ul>
-
-            </div>
-
+          <ul class="project-list">
+            <li>HTML Only Portfolio</li>
+            <li>Calculator App</li>
+            <li>Quiz Application</li>
+            <li>Countdown Timer</li>
+            <li>Product Landing Page</li>
+          </ul>
         </div>
 
+        <!-- Experience -->
+
+        <div class="box">
+          <h2 class="box-title">Work Experience</h2>
+
+          <div class="experience-item">
+            <h3>roadmap.sh</h3>
+
+            <p>
+              Solved frontend roadmap projects and built responsive web
+              interfaces.
+            </p>
+
+            <a href="https://roadmap.sh/projects/portfolio-website" target="_blank"> 
+                Visit My Profile 
+            </a>
+          </div>
+
+          <div class="experience-item">
+            <h3>OpenSource Work</h3>
+
+            <p>
+              Contributed to open-source projects and created personal frontend
+              projects.
+            </p>
+
+            <a href="https://github.com/ImDHAnI795/Personal_Portofolio_BimaRahmadhani" target="_blank">
+              Visit My GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Education -->
+
+        <div class="box">
+          <h2 class="box-title">Education</h2>
+
+          <p class="education-text">
+            Graduated with 3.76 GPA and participated in several programming and
+            hackathon events.
+          </p>
+
+          <h4>Courses I Took:</h4>
+
+          <ul class="education-list">
+            <li>Object Oriented Programming</li>
+            <li>Web Development</li>
+            <li>Artificial Intelligence</li>
+            <li>Database Management</li>
+            <li>Human Computer Interaction</li>
+            <li>Discrete Mathematics</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Reviews -->
 
     <section class="reviews">
+      <div class="container">
+        <h2 class="section-title">Reviews from my Teachers</h2>
 
-        <div class="container">
+        <div class="review-grid">
+          <div class="review-card">
+            <p>
+              John Doe was a brilliant student; always stood out with his
+              assignments.
+            </p>
 
-            <h2 class="section-title">
-                Reviews from my Teachers
-            </h2>
+            <div class="review-user">
+              <h4>Jane Doe</h4>
 
-            <div class="review-grid">
-
-                <div class="review-card">
-
-                    <p>
-                        John Doe was a brilliant student;
-                        always stood out with his assignments.
-                    </p>
-
-                    <div class="review-user">
-
-                        <h4>Jane Doe</h4>
-
-                        <span>
-                            Assistant Professor
-                        </span>
-
-                    </div>
-
-                </div>
-
-                <div class="review-card">
-
-                    <p>
-                        Excellent problem solving skills
-                        and strong frontend development ability.
-                    </p>
-
-                    <div class="review-user">
-
-                        <h4>Michael Smith</h4>
-
-                        <span>
-                            Senior Lecturer
-                        </span>
-
-                    </div>
-
-                </div>
-
-                <div class="review-card">
-
-                    <p>
-                        Creative developer with professional
-                        attitude and responsive design skills.
-                    </p>
-
-                    <div class="review-user">
-
-                        <h4>Sarah Johnson</h4>
-
-                        <span>
-                            Mentor
-                        </span>
-
-                    </div>
-
-                </div>
-
+              <span> Assistant Professor </span>
             </div>
+          </div>
 
+          <div class="review-card">
+            <p>
+              Excellent problem solving skills and strong frontend development
+              ability.
+            </p>
+
+            <div class="review-user">
+              <h4>Michael Smith</h4>
+
+              <span> Senior Lecturer </span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <p>
+              Creative developer with professional attitude and responsive
+              design skills.
+            </p>
+
+            <div class="review-user">
+              <h4>Sarah Johnson</h4>
+
+              <span> Mentor </span>
+            </div>
+          </div>
         </div>
-
+      </div>
     </section>
 
     <!-- Contact -->
 
     <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
 
-        <div class="container">
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
 
-            <h2 class="section-title">
-                Contact Me
-            </h2>
+          <input type="email" placeholder="Your Email" required />
 
-            <form class="contact-form">
+          <textarea rows="6" placeholder="Your Message" required> </textarea>
 
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                    required>
-
-                <input
-                    type="email"
-                    placeholder="Your Email"
-                    required>
-
-                <textarea
-                    rows="6"
-                    placeholder="Your Message"
-                    required>
-                </textarea>
-
-                <button type="submit">
-                    Send Message
-                </button>
-
-            </form>
-
-        </div>
-
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->
 
     <footer>
-
-        <p>
-            © all rights reserved 2025
-        </p>
-
+      <p>© all rights reserved 2025</p>
     </footer>
-
-</body>
+  </body>
 </html>
